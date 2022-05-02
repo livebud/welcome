@@ -4,6 +4,7 @@
   import Map from "./Map.svelte"
   import Phone from "./Phone.svelte"
   import HN from "./HN.svelte"
+  import Footer from "./Footer.svelte"
   import JSConfetti from "js-confetti"
 
   if (typeof document != "undefined") {
@@ -53,13 +54,7 @@
     </Card>
   </div>
 
-  <footer>
-    <a href="/">Github</a>
-    <a href="/">Twitter</a>
-    <a href="/" class="version">Bud v0.0.2</a>
-    <a href="/">Roadmap</a>
-    <a href="/">Email</a>
-  </footer>
+  <Footer />
 </Theme>
 
 <style>
@@ -116,29 +111,5 @@
   .cards p {
     font: var(--text-204);
     color: var(--gray-600);
-  }
-
-  footer {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    padding: var(--size-16);
-    text-align: center;
-    z-index: -1;
-  }
-
-  footer a {
-    color: var(--gray-400);
-    text-decoration: none;
-    padding: var(--size-32);
-  }
-
-  footer a:hover {
-    text-decoration: underline;
-  }
-
-  footer .version {
-    font-weight: bold;
   }
 </style>
