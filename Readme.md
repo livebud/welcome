@@ -28,6 +28,6 @@ Then in another terminal, run `staticgen` to generate the static assets into `bu
 staticgen
 ```
 
-Rename `bud/view/_index.svelte` to `bud/view/_index.svelte.js` and fix the name in `index.html`. This is a temporary step until this issue is resolved.
+Rename `bud/view/_index.svelte` to `bud/view/_index.svelte.js` and fix the name in `index.html`. This is a temporary step until [this issue](https://github.com/livebud/bud/issues/5) is resolved.
 
 Finally, copy the generated build files into bud's `runtime/web/welcome` package.
