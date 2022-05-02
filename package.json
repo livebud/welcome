@@ -2,6 +2,7 @@
   "name": "welcome",
   "private": true,
   "dependencies": {
+    "js-confetti": "0.10.2",
     "livebud": "0.0.7",
     "svelte": "3.47.0"
   }

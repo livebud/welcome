@@ -11,7 +11,6 @@
     background: var(--white);
     box-shadow: var(--shadow-medium);
     border-radius: var(--radius-8);
-    padding: var(--size-32);
   }
   .card:hover {
     box-shadow: var(--shadow-small);

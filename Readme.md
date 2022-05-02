@@ -14,10 +14,10 @@ bud run
 
 You can update the welcome page in Bud by doing the following.
 
-Run the development server:
+Build the package;
 
 ```sh
-bud run
+bud build
 ```
 
 Then in another terminal, run `staticgen` to generate the static assets into `build/`
@@ -27,5 +27,7 @@ Then in another terminal, run `staticgen` to generate the static assets into `bu
 ```sh
 staticgen
 ```
+
+Rename `bud/view/_index.svelte` to `bud/view/_index.svelte.js` and fix the name in `index.html`. This is a temporary step until this issue is resolved.
 
 Finally, copy the generated build files into bud's `runtime/web/welcome` package.

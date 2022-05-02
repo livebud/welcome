@@ -4,6 +4,12 @@
   import Map from "./Map.svelte"
   import Phone from "./Phone.svelte"
   import HN from "./HN.svelte"
+  import JSConfetti from "js-confetti"
+
+  if (typeof document != "undefined") {
+    const jsConfetti = new JSConfetti()
+    jsConfetti.addConfetti()
+  }
 </script>
 
 <Theme>
@@ -93,6 +99,10 @@
   .cards h2 {
     font: var(--text-206);
     color: var(--gray-700);
+  }
+
+  .card {
+    padding: var(--size-32);
   }
 
   .card .arrow {
