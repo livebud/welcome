@@ -1,8 +1,8 @@
 <footer>
-  <a href="/">Github</a>
-  <a href="/">Twitter</a>
-  <a href="/">Roadmap</a>
-  <a href="/">Email</a>
+  <a href="https://github.com/livebud/bud">Github</a>
+  <a href="https://twitter.com/golivebud">Twitter</a>
+  <a href="https://github.com/livebud/bud/discussions/9">Roadmap</a>
+  <a href="mailto:hi@livebud.com">Email</a>
 </footer>
 
 <style>
