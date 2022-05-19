@@ -7,12 +7,9 @@
 
 <style>
   footer {
-    position: absolute;
-    bottom: 16px;
-    right: 0;
-    left: 0;
-    text-align: center;
-    z-index: -1;
+    display: flex;
+    justify-content: center;
+    margin-top: var(--size-64);
   }
 
   footer a {
