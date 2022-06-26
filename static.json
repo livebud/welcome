@@ -1,5 +1,5 @@
 {
   "pages": [
-    "/bud/view/_index.svelte"
+    "/bud/view/_index.svelte.js"
   ]
 }
