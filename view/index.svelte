@@ -46,7 +46,7 @@
         </p>
       </div>
     </Card>
-    <Card href="https://cal.com/mattmueller/30min">
+    <Card href="https://cal.com/mattmueller/30m">
       <div class="card">
         <Phone />
         <h2>Schedule a Quick Call <span class="arrow">→</span></h2>

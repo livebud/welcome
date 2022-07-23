@@ -2,7 +2,7 @@ module github.com/livebud/welcome
 
 go 1.16
 
-require github.com/livebud/bud v0.2.1
+require github.com/livebud/bud v0.2.3
 
 require (
 	github.com/evanw/esbuild v0.14.47 // indirect

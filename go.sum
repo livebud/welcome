@@ -35,6 +35,7 @@ github.com/lithammer/dedent v1.1.0 h1:VNzHMVCBNG1j0fh3OrsFRkVUwStdDArbgBWoPAffkt
 github.com/lithammer/dedent v1.1.0/go.mod h1:jrXYCQtgg0nJiN+StA2KgR7w6CiQNv9Fd/Z9BP0jIOc=
 github.com/livebud/bud v0.2.1 h1:mObWPN0bDe6eznMBv9xUhu6L3lG7X0eD03N4Uv+G+mc=
 github.com/livebud/bud v0.2.1/go.mod h1:9Z6Pwutby+kVTG/rPxCv4naodHGegB93/pg0cyFByK0=
+github.com/livebud/bud v0.2.3/go.mod h1:9Z6Pwutby+kVTG/rPxCv4naodHGegB93/pg0cyFByK0=
 github.com/matthewmueller/diff v0.0.0-20220104030700-cb2fe910d90c h1:yjGBNrCIE7IghJAwrFcyDzwzwJKf0oRPeOHx60wfkmA=
 github.com/matthewmueller/diff v0.0.0-20220104030700-cb2fe910d90c/go.mod h1:xIxeV0n2W+WNB3ik/j9lUkcrQAk71VrvT9ch8u4pcvM=
 github.com/matthewmueller/gotext v0.0.0-20210424201144-265ed61725ac h1:SjopLdUF96kdJU8ynYmGVHoJmngpwFHRvR5p2plBXG4=
